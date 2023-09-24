@@ -1,7 +1,7 @@
 main {
     background-color: #F4EDE4;
     width: 100vw;
-    height: 650vh;
+    height: 560vh;
 
     .title {
         text-align: center;
@@ -103,6 +103,15 @@ main {
     .colorb{
         background-color: #4A154B;
         color: white;
+        border-color: white;
+        font-weight: bold;
+    }
+
+    .colorc{
+        background-color: white;
+        color: #4A154B;
+        border-color: white;
+        font-weight: bold;
     }
 
 }
@@ -199,3 +208,90 @@ main {
 
 }
 
+.h2Title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:30px;
+}
+
+.cardCarousel {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    border: 3px solid white;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    h2 {
+        margin-top: 10px;
+        text-align: left;
+        padding-top: 40px;
+    }
+    
+    p {
+        color: rgb(0, 89, 255);
+        font-weight: bold;
+        padding-top: 50px;
+    }
+}
+
+.finalMain {
+    padding-bottom: 50px;
+    background-color: #4A154B;
+    clip-path: ellipse(105% 100% at center top);
+
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 40px;
+        font-size: 30px;
+    }
+
+}
+
+.divFlexMain2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #4A154B;
+
+
+    button{
+        padding: 15px;
+        border-radius: 5px;
+        width: 90%;
+        margin: 10px;
+        
+
+    }
+    .colorb{
+        background-color: #4A154B;
+        color: white;
+        border-color: white;
+        font-weight: bold;
+    }
+
+    .colorc{
+        background-color: white;
+        color: #4A154B;
+        border-color: white;
+        font-weight: bold;
+    }
+
+}

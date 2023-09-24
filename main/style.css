@@ -75,7 +75,7 @@ header div p {
 main {
   background-color: #F4EDE4;
   width: 100vw;
-  height: 650vh;
+  height: 560vh;
 }
 main .title {
   text-align: center;
@@ -163,6 +163,14 @@ main .title {
 .divFlexMain .colorb {
   background-color: #4A154B;
   color: white;
+  border-color: white;
+  font-weight: bold;
+}
+.divFlexMain .colorc {
+  background-color: white;
+  color: #4A154B;
+  border-color: white;
+  font-weight: bold;
 }
 
 .divFlexPorcentaje {
@@ -240,4 +248,82 @@ main .title {
 .h4A a {
   text-decoration: none;
   color: #14E1FE;
+}
+
+.h2Title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+
+.cardCarousel {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  border: 3px solid white;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card h2 {
+  margin-top: 10px;
+  text-align: left;
+  padding-top: 40px;
+}
+.card p {
+  color: rgb(0, 89, 255);
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.finalMain {
+  padding-bottom: 50px;
+  background-color: #4A154B;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+}
+.finalMain h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.divFlexMain2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #4A154B;
+}
+.divFlexMain2 button {
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px;
+}
+.divFlexMain2 .colorb {
+  background-color: #4A154B;
+  color: white;
+  border-color: white;
+  font-weight: bold;
+}
+.divFlexMain2 .colorc {
+  background-color: white;
+  color: #4A154B;
+  border-color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
